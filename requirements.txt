@@ -1,0 +1,11 @@
+# Fill in from your scripts. In Colab, run:
+#   !grep -hE "^(from|import) " dataset_construction/*.py baseline/*.py common/*.py | sort -u
+# then pin the versions you used (check with: !pip show <package>).
+# Typical candidates for this kind of pipeline (keep only what you import):
+#
+# numpy==<version>
+# pandas==<version>
+# pillow==<version>
+# tqdm==<version>
+# torch==<version>
+# transformers==<version>

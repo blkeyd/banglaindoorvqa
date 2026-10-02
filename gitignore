@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Secrets
+.env
+*.key
+*token*
+
+# Data and large files (host these in the dataset repository instead)
+*.jpg
+*.jpeg
+*.png
+*.heic
+*.webp
+*.zip
+*.pt
+*.pth
+*.bin
+*.safetensors
+items.jsonl
+outputs/
+predictions/
+raw/
+images/
+
+# OS / editor
+.DS_Store
+.vscode/
